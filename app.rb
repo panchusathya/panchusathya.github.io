@@ -66,7 +66,7 @@ class WordGuesserApp < Sinatra::Base
     when :lose
       redirect '/lose'
     when :play
-      erb :show # Render the game display if still playing
+      erb :show
     end
   end
 
